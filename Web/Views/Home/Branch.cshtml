@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Branch";
+}
+
+<div>
+    <br />
+    <table>
+        <tr>
+            <td>StudentName</td>
+            <td><input type="text" id="txtCode" name="txtCode" /></td>
+        </tr>
+        <tr>
+            <td>Student Grade</td>
+            <td><input type="text" id="txtName" name="txtName" /></td>
+        </tr>
+        <tr>
+            <td>Code</td>
+            <td><input type="text" id="txtSEQNo" name="txtSEQNo" /></td>
+        </tr>
+        @*<tr>
+            <td>CRM_PRIFIX</td>
+            <td><input type="text" id="txtPrefix" name="txtPrefix" /></td>
+        </tr>
+        <tr>
+            <td>CRM_IDLen</td>
+            <td><input type="text" id="txtIDLen" name="txtIDLen" /></td>
+        </tr>*@
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit" onclick="PostBranch()" /></td>
+        </tr>
+    </table>
+</div>
+
+<script src="~/Scripts/EBA/Branch.js"></script>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+@*<script src="~/Scripts/jquery.validate.min.js"></script>*@
